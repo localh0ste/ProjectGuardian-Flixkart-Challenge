@@ -1,3 +1,4 @@
+
 import csv
 import json
 import re
@@ -125,7 +126,7 @@ def main(input_file: str):
     """
     Main function to read, process, and write the CSV data.
     """
-    output_file = "redacted_output_gemini_assistant.csv"
+    output_file = "redacted_output.csv"
     print(f"Processing '{input_file}'...")
 
     try:
@@ -164,7 +165,7 @@ def main(input_file: str):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 detector_gemini_assistant.py <input_csv_file>")
+        print("Usage: python3 detector-localh0ste.py <input_csv_file>")
         sys.exit(1)
     
     input_filename = sys.argv[1]
