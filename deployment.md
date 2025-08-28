@@ -42,5 +42,8 @@ This sidecar approach is chosen over alternatives (like an API Gateway plugin or
 The "Guardian Sidecar" pattern provides the most secure, scalable, and non-intrusive solution to fulfill the mission of Project Guardian 2.0.
 
 #Installation
+
 //git clone https://github.com/localh0ste/ProjectGuardian-Flixkart-Challenge
+
+
 //python3 detector-python.py <file.csv>
