@@ -165,7 +165,7 @@ def main(input_file: str):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 detector-localh0ste.py <input_csv_file>")
+        print("Usage: python3 detector-python.py <input_csv_file>")
         sys.exit(1)
     
     input_filename = sys.argv[1]
